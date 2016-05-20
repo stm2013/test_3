@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home | STM by Mail Delivery</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="stiling.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    </head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <!-- Logo -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">SWAG YOLO</a>
+            </div>
+
+         <!-- Menu -->
+          <div class="collapse navbar-collapse" id="menu" >
+              <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="introduction.html">Introduction</a></li>
+                  <li><a href="#">Theory</a></li>
+
+                  <!-- Drop down -->
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Experimental <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Mechanics</a></li>
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Software</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="#">References</a></li>
+              </ul>
+          </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+
+        <div>
+            <h1 class="title">Welcome</h1>
+
+            <!-- gör så att den läser från en txt fil istället -->
+            <div class="well">
+                <p> This project is a part of the course <a
+                    href="http://kurser.lth.se/kursplaner/15_16%20eng/FAFF05.html"><i>Project
+                    Engineering at the Nanoscale</i></a> held at the faculty of engineering at Lund University. In this
+                    website you will find an in depth procedure in building a scanning tunneling microscope (STM) along with
+                    the respective difficulties we experienced during the implementation. We will take you through our
+                    journey from having a highly limited knowledge in the field to actually having built a fully functioning
+                    microscope capable of achieving micrometer resolution.</p>
+            </div>
+        </div>
+
+        <h3>Fixar bilderna nedan någon gång</h3>
+        <div id="slides" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/img1.jpg" class="img-responsive centerimage">
+                </div>
+
+                <div class="item">
+                    <img src="images/im2.jpg" class="img-responsive centerimage">
+                </div>
+
+                <div class="item">
+                    <img src="images/img3.jpg" class="img-responsive centerimage">
+                </div>
+
+            </div>
+
+            <a class="carousel-control left" href="#slides" data-slide="prev">
+                <span class="icon-prev"></span>
+            </a>
+
+            <a class="carousel-control right" href="#slides" data-slide="next">
+                <span class="icon-next"></span>
+            </a>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

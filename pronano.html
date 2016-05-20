@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home | swagNano</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="stiling.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Logo -->
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="index.html">swagNano</a>
+        </div>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="pronano.html">proNano</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technology <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="overview.html">Overview</a></li>
+                        <li><a href="mechanics.html">Mechanics</a></li>
+                        <li><a href="electronics.html">Electronics</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="support.html">Support</a></li> <!--  https://www.nanosurf.com/en/support -->
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div id="slides" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/im2.jpg" class="img-responsive centerimage">
+            </div>
+
+            <div class="item">
+                <img src="images/img3.jpg" class="img-responsive centerimage">
+            </div>
+
+            <div class="item">
+                <img src="images/img1.jpg" class="img-responsive centerimage">
+            </div>
+
+        </div>
+
+        <a class="carousel-control left" href="#slides" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+
+        <a class="carousel-control right" href="#slides" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </div>
+
+
+    <footer>
+        <p>&copy; 2016 swagNano, Inc.</p>
+    </footer>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
